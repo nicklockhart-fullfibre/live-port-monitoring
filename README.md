@@ -6,6 +6,7 @@ in order to catch ports that are being ignored that should not be ignored.
 1. Get a local copy of the script. Either fetch the Windows executable from Releases, or clone the repository.
     - If you're using the raw Python script, make sure to install the requirements in `requirements.txt`.
 2. Copy `config.example.ini` to `config.ini` in the same folder as the script or executable. Modify the configuration file to use your LibreNMS host URL and API key.
+    - If you're using the Windows executable, you'll need to download `config.example.ini` from this repository.
 3. Run the script. By default, the report will be saved to `YYYY-MM-DD HH.MM.SS ignored_ports.txt`, but this can be changed in `config.ini`.
 
 ## Example output
